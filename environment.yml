@@ -1,0 +1,44 @@
+name: defect-detection
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - imageio
+  - intel-openmp
+  - ipykernel
+  - ipython
+  - ipython_genutils
+  - jedi
+  - jinja2
+  - jpeg
+  - jupyter
+  - jupyter_client
+  - jupyter_console
+  - jupyter_core
+  - keras=2.1.3
+  - matplotlib
+  - nbconvert
+  - nbformat
+  - ncurses
+  - numpy
+  - pillow
+  - pip
+  - pycocotools
+  - pygments
+  - pyparsing
+  - python
+  - pyyaml
+  - pyzmq
+  - readline
+  - scikit-image
+  - scipy=1.1.0
+  - setuptools
+  - tensorboard
+  - wheel
+  - yaml
+  - zlib
+  - zstd
+  - pip:
+    - opencv-python==4.1
+    - tensorflow-gpu==1.5
